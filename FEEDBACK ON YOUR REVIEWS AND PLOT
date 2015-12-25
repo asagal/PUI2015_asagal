@@ -1,0 +1,60 @@
+Anastasia these reviews were very insightful and details. Good job on this. I think you could have done well in the class if you had been able to do the work and keep up. 10/10
+
+
+NOTES ON YOUR PLOT
+===================
+the ticks and axis labels are too small 
+
+the choice of binning is exceedingly small: this affects readability of the x axis and actually suggests the presence of structure that is not in the data (see Bayesian blocks for choosing binning size)
+
+the x tick labels should be integers, not floats as they are birth years and there is no more granularity than year-level
+
+a typo in the title should be corrected and the title should be more concise: that level of description is distracting and belongs to the caption. 
+
+a compressed notation for the large numbers on the y axis would enhance readability
+
+
+
+NOTES ON THE PLOTS YOU REVIEWED
+===========================================
+
+
+dperl
+
+============
+while esthetically appealing, plotting such large datasets with points is confusing and does not allow easy comparison and assessment of the value of the data. 
+(e.g. what does the largest duration for female riders correspond to? somewhere around 1978 but it is hard to be more precise)
+
+the datapoints hide a pattern in the data: the age increases more significantly for women, peaking around 1980, but it is hard to tell.
+
+the purple foreground datapoints hide the background yellow datapoints -> confusion and ambiguity. 
+
+tick labels are too small
+
+the y axis in seconds offers unnecessary granularity: minutes would be better and more readable. even hours.
+
+
+
+lanimc
+============
+
+
+the points are green but the legend is blue.
+
+it is not clear what the legend means: it probably means the size corresponds to the duration, but this is just an educated guess as the nothing in the legend refers to size
+
+the color is unexplained and appears to be redundant with the size
+
+tick labels are way too small
+
+large values on the y axis should be substituted by a compact notation (eg using units of 1000 trips)
+
+
+MFilippelli
+======
+the station id is a categorical value, not a continuous one, so it should not be plotted as a position (and the idea of doing a regression on it is odd and really meaningless)
+
+the regression lines are very thick, which does not add to readability. 
+
+  
+in color-blind simulations the colors become indistinguishable, particularly the green
